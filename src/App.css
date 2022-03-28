@@ -1,71 +1,69 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap') ;
 
 * {
-  padding: 0;
-  margin: 0;
-  font-family: 'Raleway', Impact;
-  font-weight: 100;
-  scroll-behavior: smooth;
   color: white;
+  font-family: Raleway , sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: url(images/background.png);
+  background: url('images/background.png');
 }
 
-.weldiv {
-  background: url(images/welgif.gif) no-repeat #28033C;
-  background-size: 40%;
-  background-position: 0px 150px;
+.welDisplay {
+  background-color: #28033c;
+  display: flex;
   height: 100vh;
 }
 
-.textwel {
-  position: absolute;
+.welDisplay img {
+  height: 50%;
+  margin: 150px 0;
+  width: 430px;
 }
 
-h1.textwel {
-  margin-left: 510px;
-  margin-top: 225px;
-  font-size: 45px;
+.welText {
+  display: flex;
+  flex-direction: column;
 }
 
-h3.textwel {
-  margin-left: 540px;
-  margin-top: 280px;
-  font-size: 20px;
+.welText h1 {
+  font-size: 50px;
+  margin: 200px 0 0 -5px;
 }
 
-a.textwel {
-  margin-left: 870px;
-  margin-top: 320px;
+.welText h3 {
+  font-size: 25px;
+  margin: 0 30px 30px;
+}
+
+.welText a {
+  align-self: flex-end;
+  border: solid 2px white;
+  border-radius: 10px;
   font-size: 20px;
   padding: 10px;
   text-decoration: none;
-  border: solid 2px white;
-  border-radius: 10px;
-}
-
-a.textwel:hover {
-  border-color: rgb(255, 255, 116);
-  transition: 1s;
 }
 
 header {
-  margin: 30px auto;
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   font-size: 25px;
   font-weight: 900;
-  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+  text-align: center;
   width: 500px;
 }
 
 .title {
   background-color: rgba(0, 0, 0, 0.3);
-  text-align: center;
-  padding: 10px;
   margin: 50px 0;
+  padding: 10px;
+  text-align: center;
 }
 
 .planetsDiv {
@@ -75,12 +73,12 @@ header {
 }
 
 .infoCard {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   margin: 10px 30px;
-  background-color: rgba(0, 0, 0, 0.3);
   padding: 30px;
-  border-radius: 20px;
 }
 
 .infoCard h4 {
@@ -89,4 +87,4 @@ header {
 
 .planetImg {
   width: 150px;
-} */
+}
